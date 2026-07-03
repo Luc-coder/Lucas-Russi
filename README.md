@@ -36,7 +36,7 @@ Você pode visualizar o portfólio em:
 
 ## 📸 Preview
 
-https://github.com/user-attachments/assets/a5141273-391e-4f53-9fe4-63acb2d701da
+<img width="1847" height="941" alt="image" src="https://github.com/user-attachments/assets/e139619d-9cbe-4102-8c8d-4f6926c29b74" />
 
 
 ## 📬 Contato
