@@ -38,7 +38,7 @@ Você pode visualizar o portfólio em:
 Adicione aqui uma captura de tela do site.
 
 ```markdown
-<img width="1849" height="924" alt="image" src="https://github.com/user-attachments/assets/a5141273-391e-4f53-9fe4-63acb2d701da" />
+https://github.com/user-attachments/assets/a5141273-391e-4f53-9fe4-63acb2d701da
 ```
 
 ## 📬 Contato
