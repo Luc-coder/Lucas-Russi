@@ -33,13 +33,11 @@ Você pode visualizar o portfólio em:
 
 **🔗 https://github.com/Luc-coder/Lucas-Russi/**
 
+
 ## 📸 Preview
 
-Adicione aqui uma captura de tela do site.
-
-```markdown
 https://github.com/user-attachments/assets/a5141273-391e-4f53-9fe4-63acb2d701da
-```
+
 
 ## 📬 Contato
 
