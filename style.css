@@ -438,28 +438,52 @@
 
   .hero {
     grid-template-columns: 1fr;
+    padding: 4rem 1.25rem 3rem;
+    gap: 2rem;
     text-align: center;
-    padding: 6rem 1.5rem 3rem;
   }
 
   .hero-content {
+    transform: none;
+    max-width: 100%;
     margin: 0 auto;
-  }
-
-  .hero-description {
-    margin: 0 auto;
-  }
-
-  .hero-actions {
-    justify-content: center;
   }
 
   .hero-visual {
     order: -1;
+    transform: none;
   }
 
   .photo-display {
-    width: min(82vw, 340px);
+    width: min(86vw, 340px);
+    height: min(86vw, 340px);
+  }
+
+  .photo-display::before {
+    width: 72%;
+    height: 72%;
+  }
+
+  .photo-display::after {
+    width: 75%;
+    height: 75%;
+  }
+
+  .photo-display img {
+    width: 72%;
+    transform: translateY(-12%);
+  }
+
+  .photo-display:hover img {
+    transform: translateY(-12%);
+  }
+
+  .hero-name {
+    font-size: clamp(3.2rem, 16vw, 4.5rem);
+  }
+
+  .hero-role {
+    font-size: clamp(1.25rem, 7vw, 2rem);
   }
 
   .skills-grid {
@@ -514,6 +538,30 @@
 }
 
 @media (max-width: 500px) {
+
+  .hero {
+    padding: 3rem 1rem 2.5rem;
+  }
+
+  .photo-display {
+    width: min(90vw, 300px);
+    height: min(90vw, 300px);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    max-width: 260px;
+    text-align: center;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
 
   .skills {
     padding: 6rem 1.5rem;
